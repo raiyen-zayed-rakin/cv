@@ -1,0 +1,23 @@
+/* Navbar Section */
+.navbar {
+  background-color: #597eaa;
+}
+
+.nav-link {
+  color: white;
+}
+
+.navbar-brand {
+  color: white;
+  font-family: "Ubuntu";
+}
+
+.brt {
+  border-radius: 100%;
+}
+
+/* Title Section  */
+.title-image {
+  height: 40%;
+}
+
