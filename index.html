@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/d56b203928.js" crossorigin="anonymous"></script>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/style.css">
@@ -20,8 +22,8 @@
     <section id = "title">
       <div class="container-fluid"></div>
         <!-- Navbar Portion -->
-        <nav class="navbar navbar-expand-lg">
-          <a class="navbar-brand" href="#">Navbar</a>
+        <nav class="navbar navbar-expand-lg col1">
+          <a class="navbar-brand" href="#">Portfolio</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -45,47 +47,83 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">Contact</a>
               </li>
-              <button class = "btn btn-success">Hire me</button>
             </ul>
           </div>
+          <button class = "btn btn-warning hire-button">Hire me</button>
         </nav>
 
         <!-- Title Portion -->
-        <div class = "row">
-          <div class = "col-lg-6">
-            <h3>Hello, I am</h3>
-            <h1>Raiyen Zayed Rakin</h1>
+        <div class = "row big-div col2">
+          <div class = "col-lg-6 col-md-3 col-sm-2">
+            <h3 class = "medium-heading">Hello, I am</h3>
+            <h1 class = "big-heading">Raiyen Zayed Rakin</h1>
             <p>I am a Computer Science Studnet and a passionate programmer with  a dream to become a full-stack developer in the future. </p>
-            <button class = "btn bth-lg btn-outline-">
-              Download CV
+            <button class = "btn bth-lg btn-light cv-button">
+              <i class="fa-solid fa-download"></i> Download CV
             </button>
-            <button class = "btn bth-lg btn-outline-">Github</button>
+            <button class = "btn bth-lg btn-dark github-button">
+              <i class="fa-brands fa-github"></i> Github
+            </button>
           </div>
-          <div class = "col-lg-6">
+          <div class = "col-lg-6 col-md-4 col-sm-3">
             <img class = "title-image" src="images/rakin2.png" alt="">
           </div>
         </div>
       </div>
     </section>
-
+    <!--THis will also have education and experience buttion-->
     <section id = "about-me">
-
+        <div class = "small-div col1">
+          <h1 class = "big-heading">ABOUT ME</h1>
+        </div>
+        <div class = "row big-div col3">
+          <div class = "col-lg-4 col-md-4 col-sm-3">
+            <img src="images/rakin.png" alt="rakin_image" style="height: 30%;">
+          </div>
+          <div class = "col-lg-8 col-md-4 col-sm-3">
+            <h1>Full Stack Developer</h1>
+            <div class = "row">
+              <div class = "col-lg-6 col-md-3 col-sm-2">
+                <h5>Name: Raiyen Zayed Rakin</h5>
+                <h5>Degree: Bachelor of Science</h5>
+                <h5>Phone: 01779309553</h5>
+                <h5>Address: Siddeshwari, Ramna, Dhaka, Bangladesh</h5>
+              </div>
+              <div class = "col-lg-6 col-md-3 col-sm-2">
+                <h5>Date of Birth: 30 December, 2003</h5>
+                <h5>Experience: 1 year</h5>
+                <h5>Email: rakinaiub2023@gmail.com</h5>
+                <h5>Freelance: Available</h5>
+              </div>
+            </div>
+          </div>
+        </div>
     </section>
-    <section id = "education-background">
 
-    </section>
     <section id = "skills">
-
+      <div class = "small-div col2">
+        <h1 class = "big-heading">SKILLS</h1>  
+      </div>
+      <div class = "big-div col4"></div>
     </section>
     <section id = "projects">
-
+      <div class = "small-div col2">
+        <h1 class = "big-heading">PROJECTS</h1>
+      </div>
+      <div class = "big-div col4"></div>
     </section>
     <section id = "review">
-
+      <div class = "small-div col1">
+        <h1 class = "big-heading">REVIEW</h1>
+      </div>
+      <div class = "big-div col5"></div>
     </section>
     <!--call to action-->
     <section class = "cta">
-
+      <div class="small-div col6">
+        <h1 class = "big-heading">CONTACT</h1>
+      </div>
+      <div class = "big-div col1"></div>
     </section>
   </body>
 </html>

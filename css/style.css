@@ -1,23 +1,115 @@
+/* full tags  */
+body {
+  text-align: center;
+  color: white;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+}
+/* Heading section */
+.big-heading {
+  font-weight: 900;
+  color: white;
+  word-spacing: 10px;
+}
+.medium-heading {
+  font-weight: 600;
+}
+
+/* div size  */
+.small-div {
+  height: 90px;
+  text-align: center;
+  align-content: center;
+}
+.big-div {
+  height: 400px;
+  padding: 3% 15%;
+}
+
+/* Color 
+col1 = #93c47d
+col2 = #80bcbd
+col3 = #aad9bb
+col4 = #d5f0c1
+col5 = #f9f7c9
+col6 = #ffe599
+ Section */
+ 
+/* Separate Color Section  */
+.col1 {
+  background-color: #93c47d;
+}
+.col2 {
+  background-color: #80bcbd;
+}
+.col3 {
+  background-color: #aad9bb;
+}
+.col4 {
+  background-color: #d5f0c1;
+}
+.col5 {
+  background-color: #f9f7c9;
+}
+.col6 {
+  background-color: #ffe599;
+}
+/* ID section  */
+#title {
+  color: white;
+  line-height: 1.5;
+  text-align: left;
+}
+#about-me {
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+#skills {
+  color: white
+}
+
+/* Button Section */
+.hire-button {
+  border-radius: 50%;
+}
+.cv-button {
+  padding: 5% 5%;
+  margin: 5% auto;
+}
+.github-button {
+  padding: 5% 5%;
+  margin: 5% 5%;
+}
 /* Navbar Section */
 .navbar {
-  background-color: #597eaa;
+  padding: 4.5rem 0 4.5rem;
+}
+.navbar-nav {
+  margin-left: 750px;
+}
+.nav-item {
+  padding: 0 5px;
 }
 
 .nav-link {
   color: white;
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 300;
 }
 
 .navbar-brand {
   color: white;
-  font-family: "Ubuntu";
+  font-size: 3rem;
+  font-weight: 900;
 }
 
-.brt {
-  border-radius: 100%;
-}
 
 /* Title Section  */
 .title-image {
-  height: 20%;
+  height: 35%;
+  margin-left: 100px;
 }
 
