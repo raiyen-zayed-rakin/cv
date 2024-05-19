@@ -3,8 +3,12 @@ body {
   text-align: center;
   color: white;
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, a{
   font-family: "Montserrat";
+  color: white;
+}
+button, input, textarea {
+  box-shadow: 3px 3px 10px #ccc;
 }
 /* Heading section */
 .big-heading {
@@ -13,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {
   word-spacing: 10px;
 }
 .medium-heading {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 /* div size  */
@@ -24,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .big-div {
   height: 400px;
-  padding: 3% 15%;
+  padding: 0% 15%;
 }
 
 /* Color 
@@ -53,7 +57,7 @@ col6 = #ffe599
   background-color: #f9f7c9;
 }
 .col6 {
-  background-color: #ffe599;
+  background-color: #FEEFAD;
 }
 /* ID section  */
 #title {
@@ -66,17 +70,32 @@ col6 = #ffe599
   position: relative;
   z-index: 1;
 }
+#about-me .big-div h1 {
+  line-height: 2.5;
+}
 #skills {
   color: white
 }
 
+#projects .big-div {
+  padding: 0 15%;
+}
+
+#cta {
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  background-color: #FEEFAD;
+}
 /* Button Section */
 .hire-button {
   border-radius: 50%;
+  margin-right: 3%;
 }
 .cv-button {
   padding: 5% 5%;
   margin: 5% auto;
+
 }
 .github-button {
   padding: 5% 5%;
@@ -87,7 +106,7 @@ col6 = #ffe599
   padding: 4.5rem 0 4.5rem;
 }
 .navbar-nav {
-  margin-left: 750px;
+  margin-left: 650px;
 }
 .nav-item {
   padding: 0 5px;
@@ -102,8 +121,9 @@ col6 = #ffe599
 
 .navbar-brand {
   color: white;
-  font-size: 3rem;
+  font-size: 5rem;
   font-weight: 900;
+  margin-left: 3%;
 }
 
 
@@ -113,3 +133,21 @@ col6 = #ffe599
   margin-left: 100px;
 }
 
+
+/* Skills section  */
+.progress {
+  margin-bottom: 8%;
+}
+
+/* Projects section  */
+.card {
+  height: 370px;
+}
+.card-body {
+  padding-bottom: 0%;
+}
+
+/* Call to action section (CTA) */
+.contact-icon {
+  margin: 0% 2%;
+}
